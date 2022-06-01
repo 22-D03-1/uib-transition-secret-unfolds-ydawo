@@ -21,9 +21,7 @@ section {
 }
 .pos1 {
   position: absolute;
-
   transition: transform 1000ms linear;
-  aspect-ratio: 1;
 }
 .pos {
   position: relative;
@@ -42,7 +40,7 @@ section {
   left: 0;
 }
 .pos:hover .box1 {
-  transform: translateX(-100%) rotateZ(-0.25turn);
+  transform: translateX(-100%) rotateZ(0.25turn);
 }
 
 .box2 {
@@ -63,7 +61,7 @@ section {
   right: 0;
 }
 .pos:hover .box3 {
-  transform: translateX(100%) rotateZ(0.25turn);
+  transform: translateX(100%) rotateZ(-0.25turn);
 }
 .box4 {
   background-color: rosybrown;
